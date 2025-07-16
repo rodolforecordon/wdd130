@@ -17,7 +17,7 @@ h1 {
 
 .herodiv {
   margin: 10px auto;
-  position: relative; /* If removed, what happens? */
+  position: relative; /* If removed, the div goes to the bottom left corner of the page, instead of the image */
 }
 
 .herodiv img {
@@ -30,8 +30,8 @@ h1 {
   position: absolute;
   bottom: 25px;
   left: 15px;
-  background: radial-gradient(#eee, #323a06);
-  border: 1px solid #000;
+  background: radial-gradient(var(--light-theme-bg-color), #323a06);
+  border: var(--border);
   padding: 0.65rem;
   box-shadow: 0 0 30px #111;
   opacity: 0.9;
@@ -47,7 +47,7 @@ footer {
   position: fixed;
   bottom: 0;
   margin: 1rem;
-  border-top: 1px solid #000;
+  border-top: var(--border);
   padding: 0.5rem;
   color: navy;
   font-weight: 700;
