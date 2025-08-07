@@ -145,15 +145,18 @@ footer p {
   text-align: center;
 }
 
-.advanture figure {
-  display: grid;
-  gap: 0.5rem;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr auto;
-  margin-top: 1rem;
+.advanture h2 {
+  margin-bottom: 1rem;
 }
 
-.advanture img {
+.advanture-photos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr auto;
+  gap: 0.5rem;
+}
+
+.advanture-photos img {
   height: 100px;
 }
 
