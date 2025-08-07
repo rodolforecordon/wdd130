@@ -90,6 +90,7 @@ footer p {
   height: 32px;
 }
 
+/* ABOUT page CSS */
 .hero {
   position: relative;
 }
@@ -157,5 +158,39 @@ footer p {
 }
 
 .advanture figcaption {
+  order: 1;
+}
+
+/* CONTACT page CSS */
+.contact-info h1 {
+  text-align: center;
+}
+
+.contact-info table {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.contact-info h2 {
+  text-align: center;
+}
+
+.employee-photos {
+  text-align: center;
+}
+
+.employee-photos figure {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr auto;
+  margin-top: 1rem;
+}
+
+.employee-photos img {
+  height: 100px;
+}
+
+.employee-photos figcaption {
   order: 1;
 }
