@@ -178,22 +178,33 @@ footer p {
   text-align: center;
 }
 
-.employee-photos {
+.employee {
   text-align: center;
 }
 
-.employee-photos figure {
+.advanture h2 {
+  margin-bottom: 1rem;
+}
+
+.employee-photos {
   display: grid;
-  gap: 0.5rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr auto;
   margin-top: 1rem;
 }
 
 .employee-photos img {
-  height: 100px;
+  height: 200px;
+  border-radius: 5%;
 }
 
-.employee-photos figcaption {
+.employee figcaption {
   order: 1;
+}
+
+.message h2 {
+  text-align: center;
+}
+
+.message {
 }
