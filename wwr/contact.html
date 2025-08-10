@@ -31,16 +31,15 @@
       <table>
         <thead>
           <tr>
-            <th scope="row">Address</th>
+            <th>Address</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td scope="row">Rua da Portagem 123</td>
+            <td>Rua da Portagem 123</td>
           </tr>
           <tr>
-            <td scope="row">Melres, Porto - 4515-552</td>
-            </td>
+            <td>Melres, Porto - 4515-552</td>
           </tr>
         </tbody>
       </table>
@@ -48,7 +47,7 @@
       <table>
         <thead>
           <tr>
-            <th scope="row">Phone Numbers</th>
+            <th>Phone Numbers</th>
           </tr>
         </thead>
         <tbody>
@@ -113,8 +112,34 @@
 
     <section class="message">
       <h2>Send us a message</h2>
-      <form action="">
-
+      <form>
+        <fieldset>
+          <div class="input-container">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" placeholder="Rodolfo Recordon">
+          </div>
+          <div class="input-container">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="john.doe@gmail.com">
+          </div>
+          <div class="radio-container">
+            <input type="radio" id="general" name="purpose" value="general">
+            <label for="general">General Inquiry</label>
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="general">Reservation Question</label>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="general">Website Suggestion</label>
+          </div>
+          <div class="text-area-container">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input type="checkbox" id="subscribe" name="subscribe" value="subscribed">
+            <label for="subscribe">Please subscribe me to the monthly newsletter.</label>
+          </div>
+        </fieldset>
+        <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
@@ -130,6 +155,9 @@
       <a href="http://www.youtube.com" target="_blank" rel="noopener noreferrer">
         <img src="images/icon_youtube.svg" alt="youtube icon">
       </a>
+      <a class="wireframe-link"
+        href="https://drive.google.com/file/d/1ugyrmx3j78OexyD6XbvNW6uXaZTpnP8L/view?usp=sharing" target="_blank"
+        rel="noopener noreferrer">Page Wireframe</a>
     </nav>
   </footer>
 </body>

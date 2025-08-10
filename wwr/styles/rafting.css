@@ -206,5 +206,102 @@ footer p {
   text-align: center;
 }
 
-.message {
+form {
+  width: 650px;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0/ 0.1);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type='checkbox'] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+input[type='radio'] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  grid-column: 2/9;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: var(--accent1-color);
+}
+
+.radio-container {
+  margin: 1rem auto;
+}
+
+.text-area-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container {
+  margin-top: 1rem;
+}
+
+.wireframe-link {
+  text-align: center;
+  margin-left: 2rem;
+  text-decoration: none;
 }
