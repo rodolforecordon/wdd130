@@ -55,7 +55,7 @@ footer {
 h1,
 h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: #000;
 }
 
 nav,
@@ -110,7 +110,7 @@ footer p {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff;
+  color: #000;
 }
 
 .hero article {
@@ -120,7 +120,7 @@ footer p {
   text-align: center;
   opacity: 0.9;
   background-color: var(--primary-color);
-  color: #fff;
+  color: #000;
 }
 
 .hero article img {
@@ -445,7 +445,7 @@ button:hover {
 }
 
 .trips-table th,
-td {
+.trips-table td {
   border: 1px solid #000;
 }
 
