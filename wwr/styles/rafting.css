@@ -281,6 +281,7 @@ button {
   border-radius: 0.5rem;
   padding: 0.75rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 button:hover {
@@ -304,4 +305,168 @@ button:hover {
   text-align: center;
   margin-left: 2rem;
   text-decoration: none;
+}
+
+/* HOME page CSS */
+.newsletter {
+  text-align: center;
+}
+
+.newsletter form {
+  display: flex;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newsletter form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.purpose > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1rem;
+  align-items: start;
+}
+
+.purpose img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.centered {
+  justify-self: center;
+}
+
+.grid-h-p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-h-p h4 {
+  margin-top: 1rem;
+}
+.grid-h-p p {
+  margin: 0;
+}
+
+/* TRIPS page CSS */
+.book-form-btn {
+  all: unset;
+  position: absolute;
+  top: 120px;
+  left: 350px;
+}
+
+.book-form-btn button {
+  box-shadow: 0 0 10px 3px #000;
+}
+
+.book-form-btn2 {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-form-btn2 button {
+  box-shadow: 0 0 10px 3px var(--secondary-color);
+}
+
+.adjust-top-margin {
+  margin-top: 170px;
+}
+
+.trips-photos {
+  position: absolute;
+  top: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.trips-photos img {
+  width: 200px;
+  border: 3px inset var(--primary-color);
+  border-radius: 3px;
+  box-shadow: 0 0 20px #272727;
+}
+
+.trips-photos figcaption {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.trips-photos figure {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 87%;
+  background-color: var(--secondary-color);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border: 3px inset var(--primary-color);
+  border-radius: 3px;
+}
+
+.trips-photos figure:hover .tooltip {
+  opacity: 1;
+}
+
+.trips-table {
+  margin-top: 60px;
+}
+
+.trips-table table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.trips-table th,
+td {
+  border: 1px solid #000;
+}
+
+.trips-table th:nth-child(1) {
+  padding: 0 10px;
+}
+
+.trips-table td:nth-child(2) {
+  width: 350px;
+  padding: 10px;
+}
+
+.trips-table td:nth-child(2) {
+  width: 350px;
+  padding: 10px;
+}
+
+.trips-table td:nth-child(3) {
+  width: 350px;
+  padding: 10px;
+}
+
+.trips-table ul {
+  margin-left: 25px;
 }
